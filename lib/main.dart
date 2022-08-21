@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:p4/classes.dart';
-import 'package:p4/task.dart';
+import 'package:p4/all_files/InstaExplore.dart';
+import 'package:p4/all_files/profile.dart';
+import 'package:p4/all_files/InstaHomePage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -27,7 +28,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: task()
+      home: InstaExplore()
     );
   }
 }
